@@ -9,7 +9,7 @@ Negative: Expresses an unfavorable sentiment.
 Features
 This project includes:
 Data Preprocessing: Cleaning and tokenizing text data.
-Feature Extraction: Using techniques like TF-IDF (Term Frequency-Inverse Document Frequency) or Word Embeddings.
+Feature Extraction: Using techniques like Bag of Words.
 Model Training: Implementing and training machine learning models such as Logistic Regression, Naive Bayes, SVM, and others.
 Evaluation: Evaluating model performance using metrics like accuracy, precision, recall, and F1-score.
 Visualization: Visualizing the results using confusion matrices and accuracy plots.
@@ -23,8 +23,7 @@ Split the data into training and testing sets.
 Feature Extraction:
 Convert the text data into numerical form using:
 Bag of Words (BoW)
-TF-IDF
-Word Embeddings (Word2Vec or GloVe)
+
 
 Model Training:
 Train various machine learning models:
@@ -33,7 +32,7 @@ Naive Bayes
 Support Vector Machine (SVM)
 Random Forest
 
-Evaluation: Evaluate models using accuracy, F1-score, confusion matrix, and AUC-ROC curves.
+Evaluation: Evaluate models using accuracy, F1-score, confusion matrix.
 
 The trained models achieved the following performance metrics:
 
